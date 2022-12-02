@@ -8,7 +8,8 @@
 - Clonar o repositório do Git: `https://github.com/Renandiasmello/ci4_delta.git` no seu servidor;
 - Abrir os arquivos na sua IDE ou editor de texto;
 - Configurar a base de dados (hostname, username, password e database) no (diretório raiz) .env ou em app\Config\Database.php;
-- Rodar a migrantion para criação da tabela no seu schema/database, já definido em (.env) ou em (app\Config\Database.php);
+- Primeiramente instalar as dependencias do projeto com o comando: `composer install`;
+- Após isso, rodar a migrantion para criação da tabela no seu schema/database, já definido em (.env) ou em (app\Config\Database.php);
 - Rodar o comando: `php spark migrate`, para criar a estrutura da tabela 'students', caso queira reverter basta rodar `php spark migrate:rollback`;
 - Em seguida rodar o comando: `php spark db:seed DataStudents`, para preencher com dados iniciais no sistema feitos no seeder;
 - Para executar o serve, rodar o comando: `php spark serve`
