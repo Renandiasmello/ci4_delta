@@ -5,7 +5,7 @@
 - Banco de dados Mysql 
 
 ## Instruções de Configuração do Sistema:
-- Clonar o repositório do Git: `git@github.com:Renandiasmello/ci4_delta.git` no seu servidor;
+- Clonar o repositório do Git: `https://github.com/Renandiasmello/ci4_delta.git` no seu servidor;
 - Abrir os arquivos na sua IDE ou editor de texto;
 - Configurar a base de dados (hostname, username, password e database) no (diretório raiz) .env ou em app\Config\Database.php;
 - Rodar a migrantion para criação da tabela no seu schema/database, já definido em (.env) ou em (app\Config\Database.php);
